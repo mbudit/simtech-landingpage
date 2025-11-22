@@ -1,50 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Global tweaks */
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-slate-800 bg-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight text-slate-900;
+  }
 }
 
-:root {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-accent-500;
+  }
+
+  .glass {
+    @apply backdrop-blur-md bg-white/80 border border-white/20;
+  }
 }
 
-body,
-#root {
-  font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
-  color: #0f172a;
-  margin: 0;
-  min-height: 100vh;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-#root {
-  width: 100%;
-  height: 100%;
-  text-align: initial;
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
 }
 
-:focus-visible {
-  outline: 2px solid #2563eb;
-  outline-offset: 2px;
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
 }
 
 [id] {
-  scroll-margin-top: 96px;
-}
-
-.card-hover {
-  transition: transform .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, .2, 1);
-}
-
-.card-hover:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(2, 6, 23, .08);
-}
-
-iframe {
-  border: 0;
-  border-radius: .75rem;
+  scroll-margin-top: 100px;
 }
