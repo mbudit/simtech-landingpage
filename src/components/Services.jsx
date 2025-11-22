@@ -4,6 +4,9 @@ import { cn } from "../utils/cn";
 import SimrsBadge from "./SimrsBadge";
 import SimrsBanner from "./SimrsBanner";
 import RfidBanner from "./RfidBanner";
+import WebAppsBanner from "./WebAppsBanner";
+import MobileAppsBanner from "./MobileAppsBanner";
+import InfraBanner from "./InfraBanner";
 
 const TAG_MAP = {
     simrs: "SIMRS",
@@ -102,6 +105,27 @@ export default function Services() {
                                     <div className="absolute inset-0 bg-[radial-gradient(#e0f2fe_1px,transparent_1px)] [background-size:16px_16px] opacity-50" />
                                     <div className="relative z-10 w-full transform group-hover:translate-y-2 transition-transform duration-500">
                                         <RfidBanner className="w-full h-auto drop-shadow-2xl" />
+                                    </div>
+                                </div>
+                            ) : active === "webapps" ? (
+                                <div className="rounded-3xl bg-gradient-to-br from-brand-50 to-white border border-brand-100 p-8 h-full flex flex-col items-center justify-center relative overflow-hidden group">
+                                    <div className="absolute inset-0 bg-[radial-gradient(#e0f2fe_1px,transparent_1px)] [background-size:16px_16px] opacity-50" />
+                                    <div className="relative z-10 w-full transform group-hover:translate-y-2 transition-transform duration-500">
+                                        <WebAppsBanner className="w-full h-auto drop-shadow-2xl" />
+                                    </div>
+                                </div>
+                            ) : active === "mobile" ? (
+                                <div className="rounded-3xl bg-gradient-to-br from-brand-50 to-white border border-brand-100 p-8 h-full flex flex-col items-center justify-center relative overflow-hidden group">
+                                    <div className="absolute inset-0 bg-[radial-gradient(#e0f2fe_1px,transparent_1px)] [background-size:16px_16px] opacity-50" />
+                                    <div className="relative z-10 w-full transform group-hover:translate-y-2 transition-transform duration-500">
+                                        <MobileAppsBanner className="w-full h-auto drop-shadow-2xl" />
+                                    </div>
+                                </div>
+                            ) : active === "infra" ? (
+                                <div className="rounded-3xl bg-gradient-to-br from-brand-50 to-white border border-brand-100 p-8 h-full flex flex-col items-center justify-center relative overflow-hidden group">
+                                    <div className="absolute inset-0 bg-[radial-gradient(#e0f2fe_1px,transparent_1px)] [background-size:16px_16px] opacity-50" />
+                                    <div className="relative z-10 w-full transform group-hover:translate-y-2 transition-transform duration-500">
+                                        <InfraBanner className="w-full h-auto drop-shadow-2xl" />
                                     </div>
                                 </div>
                             ) : (

@@ -3,6 +3,8 @@ import activity2 from "../assets/activity/activity2.jpg";
 import activity3 from "../assets/activity/activity3.jpg";
 import activity4 from "../assets/activity/activity4.jpg";
 import activity5 from "../assets/activity/activity5.jpg";
+import rfid from "../assets/projects/rfid.png";
+import gorden from "../assets/projects/gorden.png"
 
 export const SERVICES = [
     {
@@ -28,15 +30,15 @@ export const SERVICES = [
         key: "webapps",
         title: "Website & WebApps",
         desc:
-            "Pembuatan website cepat & aman (CSP/CSRF), webapp React + API Node/PHP, serta integrasi pembayaran.",
-        details: ["React/Tailwind", "CodeIgniter 3/4 & PHP 7.4+", "NGINX/Ubuntu", "Hardening & CSP Nonce"],
+            "Layanan pembuatan website dan webapp custom dengan desain modern, fitur lengkap, serta performa optimal untuk mendukung kebutuhan bisnis Anda.",
+        details: ["React/NextJS/ExpressJS/CodeIgniter", "NGINX/Ubuntu/Docker", "Hardening & CSP Nonce", "SSL/TLS", "AWS/GCP"],
     },
     {
         key: "mobile",
         title: "Mobile Apps Android",
         desc:
-            "Aplikasi Android untuk operasional lapangan (gordyn RS, order entry, inventory, survey) dengan offline‑first.",
-        details: ["Room/SQLite", "Camera & GPS", "Sync ke Backend", "Play Store ready"],
+            "Layanan pengembangan aplikasi Android berbasis Kotlin/Java dengan arsitektur modern, integrasi API, database, dan fitur-fitur khusus sesuai kebutuhan. Kami memastikan performa optimal dan pengalaman pengguna yang maksimal.",
+        details: ["Room/SQLite", "ExpressJS/MySQL", "AWS/GCP", "Play Store ready"],
     },
     {
         key: "infra",
@@ -56,43 +58,43 @@ export const PORTFOLIO = [
     {
         tag: "SIMRS",
         title: "Rescue SIMRS RSUD dr. Slamet",
-        img: activity1,
+        img: activity5,
         desc: "Stabilisasi dan optimalisasi sistem informasi manajemen rumah sakit yang sebelumnya mengalami kendala performa berat.",
-        challenge: "Sistem sering down saat jam sibuk, antrian pasien menumpuk, dan data medis tidak sinkron antar unit.",
+        challenge: "Sistem sering down saat jam sibuk, manajemen farmasi berantakan, dan data depo tidak sinkron antar unit.",
         solution: "Re-arsitektur database dengan clustering, optimasi query berat, dan implementasi caching layer (Redis).",
         goal: "Mencapai Zero Downtime dan mempercepat waktu pelayanan pasien hingga 50%."
     },
     {
         tag: "RFID",
-        title: "RFID Linen – Depo Rajal",
-        img: activity2,
+        title: "RFID Linen & Laundry",
+        img: rfid,
         desc: "Sistem pelacakan aset linen otomatis menggunakan teknologi RFID untuk efisiensi operasional laundry rumah sakit.",
         challenge: "Kehilangan linen yang tinggi (loss ratio > 10%) dan proses stok opname yang memakan waktu berhari-hari.",
         solution: "Pemasangan tag RFID UHF pada setiap linen dan gate reader otomatis di pintu keluar-masuk laundry.",
         goal: "Akurasi stok 100%, tracking lokasi realtime, dan stok opname selesai dalam hitungan menit."
     },
-    {
-        tag: "Web",
-        title: "Portal Komdigi – MFA",
-        img: activity3,
-        desc: "Pengembangan portal internal kementerian dengan standar keamanan tinggi menggunakan Multi-Factor Authentication.",
-        challenge: "Resiko kebocoran data sensitif akibat serangan brute force dan akses tidak sah pada akun pegawai.",
-        solution: "Implementasi MFA berbasis TOTP (Time-based One-Time Password) dan rate limiting pada endpoint login.",
-        goal: "Menjamin keamanan data pengguna dan mematuhi standar keamanan siber nasional."
-    },
+    // {
+    //     tag: "Web",
+    //     title: "Portal Komdigi – MFA",
+    //     img: activity3,
+    //     desc: "Pengembangan portal internal kementerian dengan standar keamanan tinggi menggunakan Multi-Factor Authentication.",
+    //     challenge: "Resiko kebocoran data sensitif akibat serangan brute force dan akses tidak sah pada akun pegawai.",
+    //     solution: "Implementasi MFA berbasis TOTP (Time-based One-Time Password) dan rate limiting pada endpoint login.",
+    //     goal: "Menjamin keamanan data pengguna dan mematuhi standar keamanan siber nasional."
+    // },
     {
         tag: "Mobile",
-        title: "Android Order Gordyn RS",
-        img: activity4,
-        desc: "Aplikasi mobile untuk manajemen pemesanan dan pergantian gorden di ruang rawat inap secara digital.",
-        challenge: "Pencatatan manual pergantian gorden sering hilang, jadwal tidak teratur, dan sulit memantau kebersihan.",
-        solution: "Aplikasi Android offline-first untuk petugas kebersihan dengan fitur scan QR code ruangan dan jadwal otomatis.",
-        goal: "Efisiensi operasional tim housekeeping dan digitalisasi riwayat kebersihan ruangan."
+        title: "Gorden RS Production and Management Monitoring App",
+        img: gorden,
+        desc: "Aplikasi mobile untuk manajemen pemesanan dan pergantian gorden rumah sakit secara digital.",
+        challenge: "Pencatatan manual tim lapangan untuk pemesanan gorden, approval pemesanan manual lewat WhatsApp, dan sulit memantau produksi gorden yang ongoing dan yang sudah selesai.",
+        solution: "Aplikasi Android untuk petugas lapangan dan produksi gorden agar dengan mudah input data pemesanan, permintaan approval, dan monitoring produksi gorden.",
+        goal: "Efisiensi operasional tim lapangan dan produksi gorden dan digitalisasi riwayat pemesanan gorden beserta dashboard produksi gorden."
     },
     {
         tag: "Database & Infra",
         title: "Data Analytics & ML Dashboard",
-        img: activity5,
+        img: activity4,
         desc: "Dashboard analitik komprehensif untuk visualisasi data operasional dan prediksi tren kunjungan pasien.",
         challenge: "Data tersebar di berbagai sistem (silo) sehingga manajemen sulit mengambil keputusan strategis berbasis data.",
         solution: "Pembangunan Data Warehouse terpusat dan dashboard interaktif dengan model Machine Learning untuk prediksi.",

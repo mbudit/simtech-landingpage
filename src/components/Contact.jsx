@@ -67,8 +67,8 @@ export default function Contact() {
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-1">Alamat Kantor</h3>
                                     <p className="text-slate-600">
-                                        Perumahan Griya Shanta Eksekutif Blok P 319,<br />
-                                        Kec. Lowokwaru, Kota Malang, Jawa Timur 65141
+                                        Office 99, Gedung EduCenter Lt.2 Unit VO‑24110,<br />
+                                        BSD City, Kab. Tangerang, Banten 15331
                                     </p>
                                 </div>
                             </div>
@@ -81,8 +81,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-1">Email</h3>
-                                    <a href="mailto:admin@simplify.co.id" className="text-brand-600 hover:underline">
-                                        admin@simplify.co.id
+                                    <a href="mailto:official@simtechindo.com" className="text-brand-600 hover:underline">
+                                        official@simtechindo.com
                                     </a>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ export default function Contact() {
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-1">WhatsApp</h3>
                                     <a href="https://wa.me/628559903070" target="_blank" rel="noreferrer" className="text-brand-600 hover:underline">
-                                        +62 855-9903-070
+                                        +62 855‑990‑3070
                                     </a>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ export default function Contact() {
                         <div className="mt-10 h-64 w-full rounded-3xl overflow-hidden shadow-lg border border-slate-200">
                             <iframe
                                 title="Map Simtech"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.504434657264!2d112.61347967413632!3d-7.946699092077689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78827687d272e7%3A0x789ce9a636cd3aa2!2sPT%20Simplify%20Technologies%20Indonesia!5e0!3m2!1sid!2sid!4v1708500000000!5m2!1sid!2sid"
+                                src="https://www.google.com/maps?q=EduCenter%20BSD%20City&output=embed"
                                 width="100%"
                                 height="100%"
                                 loading="lazy"
