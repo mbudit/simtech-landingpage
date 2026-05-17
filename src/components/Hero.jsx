@@ -1,40 +1,63 @@
 export default function Hero() {
     return (
-        <section id="home" className="relative min-h-[90vh] grid place-items-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-50 via-white to-white px-4 overflow-hidden">
+        <section id="home" className="relative min-h-[92vh] grid place-items-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-50 via-white to-white px-4 overflow-hidden">
             {/* Background decoration */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none">
                 <div className="absolute top-20 left-10 w-72 h-72 bg-accent-200/30 rounded-full blur-3xl animate-pulse" />
                 <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-200/30 rounded-full blur-3xl animate-pulse delay-1000" />
             </div>
 
-            <div className="mx-auto max-w-5xl text-center relative z-10">
+            <div className="mx-auto max-w-6xl text-center relative z-10 py-16">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 mb-6">
                     <span className="relative flex h-2 w-2">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
                     </span>
                     <p className="text-xs md:text-sm font-semibold tracking-wider uppercase text-brand-700">
-                        Software House • Healthtech • IoT
+                        Healthcare • Government • Enterprise Systems
                     </p>
                 </div>
 
-                <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight mb-6">
-                    Bangun Sistem yang <span className="text-gradient">Aman</span>,
-                    <span className="text-gradient"> Terukur</span>, dan <span className="text-gradient">Terintegrasi</span>
+                <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.08] tracking-tight mb-6">
+                    Membangun Solusi Digital yang
+                    <span className="text-gradient"> Menyelesaikan Masalah Operasional</span>
                 </h1>
 
-                <p className="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                    PT Simplify Technologies Indonesia — partner Anda untuk SIMRS, RFID Linen, Web/Mobile Apps,
-                    dan Database Arsitektur.
+                <p className="mt-6 text-lg md:text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+                    SIMTECH membantu rumah sakit, instansi, dan perusahaan mengembangkan sistem yang terintegrasi —
+                    mulai dari <span className="font-semibold text-slate-800">SIMRS</span>, <span className="font-semibold text-slate-800">RFID Linen Tracking</span>,
+                    aplikasi operasional, hingga arsitektur data dan infrastruktur yang siap tumbuh.
                 </p>
 
                 <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a href="#contact" className="w-full sm:w-auto rounded-full bg-brand-600 px-8 py-4 text-white font-bold shadow-lg shadow-brand-500/30 hover:bg-brand-700 hover:shadow-brand-500/40 hover:-translate-y-0.5 transition-all">
-                        Diskusikan Kebutuhan
+                        Konsultasikan Kebutuhan
                     </a>
                     <a href="#services" className="w-full sm:w-auto rounded-full bg-white border border-slate-200 px-8 py-4 text-slate-700 font-bold hover:border-brand-300 hover:text-brand-700 hover:bg-brand-50/50 transition-all">
-                        Lihat Layanan
+                        Lihat Solusi SIMTECH
                     </a>
+                </div>
+
+                <div className="mt-12 grid gap-4 md:grid-cols-3 max-w-5xl mx-auto text-left">
+                    {[
+                        {
+                            title: "SIMRS Rescue & Modernization",
+                            text: "Stabilisasi sistem, penataan proses, dan penguatan modul prioritas rumah sakit.",
+                        },
+                        {
+                            title: "RFID Linen Tracking",
+                            text: "Monitoring linen dan aktivitas laundry dengan data yang lebih cepat, akurat, dan terbaca.",
+                        },
+                        {
+                            title: "Custom Enterprise Applications",
+                            text: "Aplikasi web, mobile, dashboard, dan integrasi data sesuai kebutuhan operasional.",
+                        },
+                    ].map((item) => (
+                        <div key={item.title} className="rounded-2xl border border-slate-100 bg-white/90 p-5 shadow-sm backdrop-blur hover:-translate-y-1 hover:shadow-lg transition-all">
+                            <h3 className="text-base font-bold text-slate-900 mb-2">{item.title}</h3>
+                            <p className="text-sm leading-relaxed text-slate-600">{item.text}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
 

@@ -2,6 +2,7 @@ import { useScrollSpy } from "./hooks/useScrollSpy";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import TargetAudience from "./components/TargetAudience";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Pricing from "./components/Pricing";
@@ -20,6 +21,7 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <About />
+        <TargetAudience />
         <Services />
         <Portfolio />
         <Pricing />

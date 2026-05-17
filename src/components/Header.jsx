@@ -9,7 +9,7 @@ export default function Header({ active }) {
         { id: "about", label: "Tentang" },
         { id: "services", label: "Layanan" },
         { id: "portfolio", label: "Portofolio" },
-        { id: "pricing", label: "Paket" },
+        { id: "pricing", label: "Skema Kerja" },
         { id: "faq", label: "FAQ" },
         { id: "contact", label: "Kontak" },
     ];
@@ -46,7 +46,7 @@ export default function Header({ active }) {
                             href="#contact"
                             className="ml-4 rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-500/30 hover:bg-brand-700 hover:shadow-brand-500/40 transition-all active:scale-95"
                         >
-                            Konsultasi Gratis
+                            Konsultasi Awal
                         </a>
                     </nav>
 

@@ -35,9 +35,9 @@ export default function Services() {
 
             <div className="mx-auto max-w-7xl px-4 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Layanan Unggulan</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Solusi yang Kami Bangun</h2>
                     <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                        Solusi teknologi komprehensif yang dirancang untuk efisiensi dan pertumbuhan bisnis Anda.
+                        Portofolio layanan SIMTECH dirancang untuk menjawab kebutuhan operasional, integrasi data, dan pengembangan sistem yang lebih terarah.
                     </p>
                 </div>
 
@@ -83,7 +83,7 @@ export default function Services() {
                                 href="#contact"
                                 className="w-full inline-flex justify-center items-center rounded-xl bg-brand-600 px-6 py-3.5 text-white font-semibold hover:bg-brand-700 transition-colors shadow-lg shadow-brand-500/20 group"
                             >
-                                Minta Estimasi
+                                Diskusikan Solusi
                                 <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>

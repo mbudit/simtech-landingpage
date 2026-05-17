@@ -7,9 +7,9 @@ export default function Portfolio() {
         <section id="portfolio" className="py-24 bg-white">
             <div className="mx-auto max-w-7xl px-4">
                 <div className="text-center mb-20">
-                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Portofolio Kami</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Solusi & Pengalaman Proyek</h2>
                     <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                        Studi kasus nyata bagaimana kami membantu klien mengatasi tantangan teknis dan mencapai tujuan bisnis.
+                        Beberapa pengalaman dan solusi yang menunjukkan cara SIMTECH menerjemahkan kebutuhan operasional menjadi sistem yang lebih terarah.
                     </p>
                 </div>
 
@@ -72,7 +72,7 @@ export default function Portfolio() {
                                             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Hasil & Goal
+                                            Dampak yang Dituju
                                         </h4>
                                         <p className="text-slate-700 text-sm leading-relaxed">{p.goal}</p>
                                     </div>

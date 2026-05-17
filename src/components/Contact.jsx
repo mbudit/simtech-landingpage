@@ -52,8 +52,8 @@ export default function Contact() {
                             Hubungi Kami
                         </h2>
                         <p className="text-lg text-slate-600 mb-10 leading-relaxed">
-                            Siap mentransformasi bisnis Anda? Diskusikan kebutuhan teknologi Anda bersama tim ahli kami.
-                            Konsultasi gratis!
+                            Ceritakan tantangan sistem, proses, atau digitalisasi yang sedang Anda hadapi.
+                            Tim SIMTECH akan membantu memetakan kebutuhan awal dan arah solusi yang paling relevan.
                         </p>
 
                         <div className="space-y-8">
@@ -118,15 +118,15 @@ export default function Contact() {
 
                     {/* Form Kanan */}
                     <div className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100">
-                        <h3 className="text-2xl font-bold text-slate-900 mb-6">Kirim Pesan</h3>
+                        <h3 className="text-2xl font-bold text-slate-900 mb-6">Kirim Kebutuhan Awal</h3>
                         <form onSubmit={handleSubmit} className="space-y-5">
                             <div className="grid sm:grid-cols-2 gap-5">
                                 <Field label="Nama Lengkap" name="name" placeholder="John Doe" required />
                                 <Field label="Email" name="email" type="email" placeholder="john@company.com" required />
                             </div>
                             <Field label="Nomor WhatsApp" name="phone" type="tel" placeholder="+62..." required />
-                            <Field label="Topik / Layanan" name="subject" placeholder="Misal: Pembuatan Website RS" />
-                            <Field label="Pesan Anda" name="message" type="textarea" placeholder="Ceritakan kebutuhan project Anda..." required />
+                            <Field label="Topik Kebutuhan" name="subject" placeholder="Misal: SIMRS, RFID Linen, atau Aplikasi Internal" />
+                            <Field label="Pesan Anda" name="message" type="textarea" placeholder="Jelaskan kebutuhan, kendala saat ini, dan hasil yang ingin dicapai..." required />
 
                             <button
                                 type="submit"
@@ -136,7 +136,7 @@ export default function Contact() {
                                     loading && "opacity-70 cursor-not-allowed"
                                 )}
                             >
-                                {loading ? "Mengirim..." : "Kirim Pesan"}
+                                {loading ? "Mengirim..." : "Kirim Kebutuhan Awal"}
                             </button>
                         </form>
                     </div>

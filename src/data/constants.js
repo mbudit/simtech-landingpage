@@ -9,47 +9,62 @@ import gorden from "../assets/projects/gorden.png"
 export const SERVICES = [
     {
         key: "simrs",
-        title: "SIMRS Terintegrasi",
+        title: "SIMRS & Healthcare Digitalization",
         desc:
-            "Implementasi dan rescue SIMRS (C, D, dan B) selaras Permenkes 24/2022, integrasi SATUSEHAT & JKN, keamanan & audit.",
+            "Pendampingan pengembangan, rescue, dan penguatan sistem rumah sakit agar proses layanan, data, dan modul operasional menjadi lebih tertata.",
         details: [
-            "Bridging SATUSEHAT & BPJS",
-            "RME & e‑Resep",
-            "Kasir, Farmasi, Gudang, IGD/Rawat Jalan/Rawat Inap",
-            "Pelaporan SP2TP, INA‑CBGs",
+            "Perbaikan alur layanan klinis dan non-klinis",
+            "Penguatan modul pendaftaran, poli, kasir, farmasi, dan RME",
+            "Kesiapan integrasi dengan ekosistem layanan kesehatan",
+            "Pemetaan kebutuhan teknis dan operasional rumah sakit",
         ],
     },
     {
         key: "rfid",
-        title: "RFID Linen & Laundry (SIMTECH)",
+        title: "RFID Linen Tracking",
         desc:
-            "Pelacakan linen end‑to‑end dengan tag RFID, portal gate, dan dashboard OEE. Integrasi ke gudang & depo RS.",
-        details: ["Tag UHF EPC Gen2", "Portal/Handheld", "Dashboard KPI", "API ke SIMRS"],
+            "Sistem pelacakan linen dan aktivitas laundry untuk membantu rumah sakit meningkatkan visibilitas aset, mempercepat stok opname, dan mengurangi proses manual.",
+        details: [
+            "Tag RFID dan perangkat pembacaan",
+            "Monitoring perpindahan linen",
+            "Dashboard stok, sirkulasi, dan aktivitas laundry",
+            "Integrasi data ke sistem operasional terkait",
+        ],
     },
     {
         key: "webapps",
-        title: "Website & WebApps",
+        title: "Enterprise Web Applications",
         desc:
-            "Layanan pembuatan website dan webapp custom dengan desain modern, fitur lengkap, serta performa optimal untuk mendukung kebutuhan bisnis Anda.",
-        details: ["React/NextJS/ExpressJS/CodeIgniter", "NGINX/Ubuntu/Docker", "Hardening & CSP Nonce", "SSL/TLS", "AWS/GCP"],
+            "Pengembangan aplikasi web yang dibuat sesuai proses bisnis klien, mulai dari workflow internal, portal layanan, dashboard, hingga sistem manajemen operasional.",
+        details: [
+            "Custom workflow dan role-based access",
+            "Dashboard operasional dan manajerial",
+            "Integrasi API dan database",
+            "Deployment yang rapi dan siap dikembangkan",
+        ],
     },
     {
         key: "mobile",
-        title: "Mobile Apps Android",
+        title: "Mobile Operational Apps",
         desc:
-            "Layanan pengembangan aplikasi Android berbasis Kotlin/Java dengan arsitektur modern, integrasi API, database, dan fitur-fitur khusus sesuai kebutuhan. Kami memastikan performa optimal dan pengalaman pengguna yang maksimal.",
-        details: ["Room/SQLite", "ExpressJS/MySQL", "AWS/GCP", "Play Store ready"],
+            "Aplikasi mobile untuk tim lapangan, operasional, produksi, dan monitoring pekerjaan agar pencatatan lebih cepat dan keputusan lebih mudah diambil.",
+        details: [
+            "Input data lapangan secara digital",
+            "Approval dan tracking aktivitas",
+            "Sinkronisasi data dengan backend",
+            "Pengalaman pengguna yang sederhana dan terarah",
+        ],
     },
     {
         key: "infra",
-        title: "Database & Infrastructure",
+        title: "Data, Infrastructure & Reliability",
         desc:
-            "Desain dan implementasi infrastruktur database serta server untuk memastikan sistem berjalan cepat, aman, dan tinggi ketersediaan (high availability). Kami menyiapkan replikasi DC1–DC2 aktif-aktif, monitoring, dan backup otomatis.",
+            "Perancangan data dan infrastruktur pendukung agar aplikasi lebih stabil, mudah dimonitor, dan siap dikembangkan sesuai pertumbuhan kebutuhan.",
         details: [
-            "PostgreSQL / MySQL Cluster (HA & failover)",
-            "Load Balancer (HAProxy / NGINX)",
-            "Backup & Snapshot otomatis",
-            "Monitoring & Alerting (Grafana / Prometheus)",
+            "Arsitektur database dan data flow",
+            "Backup, monitoring, dan alerting",
+            "Penataan server, deployment, dan integrasi",
+            "Penguatan reliability untuk aplikasi kritikal",
         ],
     },
 ];
@@ -59,68 +74,60 @@ export const PORTFOLIO = [
         tag: "SIMRS",
         title: "Rescue SIMRS RSUD dr. Slamet",
         img: activity5,
-        desc: "Stabilisasi dan optimalisasi sistem informasi manajemen rumah sakit yang sebelumnya mengalami kendala performa berat.",
-        challenge: "Sistem sering down saat jam sibuk, manajemen farmasi berantakan, dan data depo tidak sinkron antar unit.",
-        solution: "Re-arsitektur database dengan clustering, optimasi query berat, dan implementasi caching layer (Redis).",
-        goal: "Mencapai Zero Downtime dan mempercepat waktu pelayanan pasien hingga 50%."
+        desc: "Pendampingan perbaikan sistem informasi rumah sakit agar alur modul prioritas lebih stabil dan lebih selaras dengan kebutuhan operasional.",
+        challenge: "Rumah sakit membutuhkan penanganan terhadap sistem existing yang perlu ditata kembali dari sisi alur, prioritas modul, dan efektivitas penggunaan.",
+        solution: "SIMTECH masuk melalui pendekatan assessment, analisis kebutuhan, perbaikan titik kritis, serta penyusunan arah penguatan sistem secara bertahap.",
+        goal: "Meningkatkan keterkendalian sistem, memperjelas prioritas improvement, dan membantu operasional rumah sakit bergerak lebih efektif."
     },
     {
         tag: "RFID",
         title: "RFID Linen & Laundry",
         img: rfid,
-        desc: "Sistem pelacakan aset linen otomatis menggunakan teknologi RFID untuk efisiensi operasional laundry rumah sakit.",
-        challenge: "Kehilangan linen yang tinggi (loss ratio > 10%) dan proses stok opname yang memakan waktu berhari-hari.",
-        solution: "Pemasangan tag RFID UHF pada setiap linen dan gate reader otomatis di pintu keluar-masuk laundry.",
-        goal: "Akurasi stok 100%, tracking lokasi realtime, dan stok opname selesai dalam hitungan menit."
+        desc: "Solusi monitoring linen untuk membantu organisasi rumah sakit mengurangi pencatatan manual dan meningkatkan visibilitas siklus aset.",
+        challenge: "Linen bergerak lintas area operasional sehingga dibutuhkan cara pencatatan yang lebih cepat, terukur, dan mudah ditelusuri.",
+        solution: "Penerapan tag RFID, perangkat pembacaan, dan dashboard pemantauan untuk mencatat perpindahan serta status linen secara lebih sistematis.",
+        goal: "Meningkatkan akurasi inventaris, mempercepat proses monitoring, dan memperkuat kontrol terhadap sirkulasi linen."
     },
-    // {
-    //     tag: "Web",
-    //     title: "Portal Komdigi – MFA",
-    //     img: activity3,
-    //     desc: "Pengembangan portal internal kementerian dengan standar keamanan tinggi menggunakan Multi-Factor Authentication.",
-    //     challenge: "Resiko kebocoran data sensitif akibat serangan brute force dan akses tidak sah pada akun pegawai.",
-    //     solution: "Implementasi MFA berbasis TOTP (Time-based One-Time Password) dan rate limiting pada endpoint login.",
-    //     goal: "Menjamin keamanan data pengguna dan mematuhi standar keamanan siber nasional."
-    // },
     {
         tag: "Mobile",
-        title: "Gorden RS Production and Management Monitoring App",
+        title: "Gorden RS Production & Management Monitoring App",
         img: gorden,
-        desc: "Aplikasi mobile untuk manajemen pemesanan dan pergantian gorden rumah sakit secara digital.",
-        challenge: "Pencatatan manual tim lapangan untuk pemesanan gorden, approval pemesanan manual lewat WhatsApp, dan sulit memantau produksi gorden yang ongoing dan yang sudah selesai.",
-        solution: "Aplikasi Android untuk petugas lapangan dan produksi gorden agar dengan mudah input data pemesanan, permintaan approval, dan monitoring produksi gorden.",
-        goal: "Efisiensi operasional tim lapangan dan produksi gorden dan digitalisasi riwayat pemesanan gorden beserta dashboard produksi gorden."
+        desc: "Aplikasi mobile untuk pencatatan kebutuhan pelanggan, approval pemesanan, dan monitoring progres produksi secara lebih terintegrasi.",
+        challenge: "Proses lapangan dan produksi sebelumnya banyak bergantung pada pencatatan manual serta komunikasi yang tersebar.",
+        solution: "Pengembangan aplikasi Android agar tim lapangan, admin, dan produksi memiliki alur input data, approval, dan monitoring yang lebih jelas.",
+        goal: "Mendukung efisiensi proses kerja, mempercepat koordinasi, dan membentuk riwayat pemesanan yang lebih terdokumentasi."
     },
     {
         tag: "Database & Infra",
-        title: "Data Analytics & ML Dashboard",
+        title: "Operational Monitoring & Data Dashboard",
         img: activity4,
-        desc: "Dashboard analitik komprehensif untuk visualisasi data operasional dan prediksi tren kunjungan pasien.",
-        challenge: "Data tersebar di berbagai sistem (silo) sehingga manajemen sulit mengambil keputusan strategis berbasis data.",
-        solution: "Pembangunan Data Warehouse terpusat dan dashboard interaktif dengan model Machine Learning untuk prediksi.",
-        goal: "Keputusan manajemen yang lebih cepat dan akurat berbasis data (Data-Driven Decision Making)."
+        desc: "Pendekatan dashboard untuk membantu pimpinan dan tim operasional melihat indikator penting secara lebih ringkas dan terstruktur.",
+        challenge: "Data operasional yang tersebar menyulitkan manajemen melihat kondisi aktual dan menentukan prioritas tindak lanjut.",
+        solution: "Perancangan dashboard ringkas berbasis kebutuhan pengguna, dengan fokus pada indikator, status pekerjaan, dan visibilitas progres.",
+        goal: "Mendorong keputusan yang lebih cepat, komunikasi yang lebih jelas, dan kontrol operasional yang lebih baik."
     },
 ];
 
 export const FAQS = [
     {
-        q: "Berapa lama implementasi SIMRS Rescue?",
-        a: "Umumnya 6–12 minggu untuk stabilisasi modul awal (pendaftaran, poli, kasir, farmasi, bridging BPJS, RME dasar).",
+        q: "Apakah SIMTECH hanya membuat website?",
+        a: "Tidak. SIMTECH berfokus pada pengembangan solusi digital yang lebih luas: aplikasi web, mobile, dashboard, sistem monitoring, RFID, hingga pendampingan penguatan sistem existing.",
     },
     {
-        q: "Apakah bisa host di cloud lokal?",
-        a: "Bisa. Biasa kami gunakan IDCloudHost (managed Ubuntu + NGINX/PostgreSQL) atau on-prem DC1–DC2.",
+        q: "Apakah bisa membantu sistem yang sudah berjalan tetapi perlu diperbaiki?",
+        a: "Bisa. Kami dapat masuk melalui assessment, identifikasi masalah prioritas, penyusunan roadmap improvement, lalu dilanjutkan dengan perbaikan bertahap.",
     },
     {
-        q: "Apakah mendukung audit & keamanan?",
-        a: "Ya. CSP nonce, CSRF aktif, hardening server, backup terjadwal, serta log terpusat. Untuk tanda tangan digital mengikuti BSrE.",
+        q: "Apakah solusi harus dibuat dari nol?",
+        a: "Tidak selalu. Kami akan menilai apakah kebutuhan lebih tepat dibangun baru, dikembangkan dari sistem existing, atau disusun secara bertahap agar investasi lebih efektif.",
     },
     {
-        q: "Apakah layanan bisa dikustom?",
-        a: "Bisa. Semua modul dan SLA dukungan dapat disesuaikan dengan kebutuhan RS/instansi.",
+        q: "Apakah SIMTECH cocok untuk rumah sakit dan instansi?",
+        a: "Ya. Fokus kami memang kuat pada kebutuhan yang memiliki proses operasional kompleks, banyak aktor, dan membutuhkan integrasi data serta kontrol yang lebih baik.",
     },
     {
-        q: "Apakah ada biaya bulanan?",
-        a: "Tergantung paket. Untuk SIMRS Rescue biasanya one-time fee dengan opsi maintenance tahunan. Untuk WebApp/SaaS bisa berlangganan.",
+        q: "Bagaimana cara memulai diskusi kebutuhan?",
+        a: "Calon klien dapat menghubungi SIMTECH melalui formulir kontak atau WhatsApp. Dari sana kami akan membantu memetakan kebutuhan awal dan menentukan bentuk tindak lanjut yang paling tepat.",
     },
 ];
+
