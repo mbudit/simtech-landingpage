@@ -23,7 +23,7 @@ export default function TargetAudience() {
             <div className="mx-auto max-w-7xl px-4 relative z-10">
                 <div className="max-w-3xl mb-12">
                     <p className="text-sm font-bold uppercase tracking-[0.22em] text-brand-300 mb-4">Fokus Klien</p>
-                    <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-4 text-white">
                         SIMTECH Dirancang untuk Organisasi yang Ingin Sistemnya Lebih Terkendali
                     </h2>
                     <p className="text-lg leading-relaxed text-slate-300">
