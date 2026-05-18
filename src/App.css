@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -50,4 +51,22 @@
 
 [id] {
   scroll-margin-top: 100px;
+}
+
+@keyframes clientMarqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+.client-marquee-track {
+  animation: clientMarqueeScroll 28s linear infinite;
+}
+
+.client-marquee-track:hover {
+  animation-play-state: paused;
 }

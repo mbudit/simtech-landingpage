@@ -10,25 +10,47 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Products from "./components/Products";
+import TeamSection from "./components/Teamsection";
 import "./App.css";
+import ClientMarquee from "./components/ClientMarquee";
 
 export default function App() {
-  const sectionIds = ["home", "about", "services", "portfolio", "pricing", "faq", "contact"];
+  const sectionIds = [
+    "home",
+    "about",
+    "products",
+    "services",
+    "portfolio",
+    "pricing",
+    "faq",
+    "contact"
+  ];
+
   const active = useScrollSpy(sectionIds, 120);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header active={active} />
+
       <main className="flex-1">
         <Hero />
         <About />
+        <ClientMarquee />
         <TargetAudience />
+        <Products />
         <Services />
         <Portfolio />
+
+        {/* Profil Tim SIMTECH */}
+        <TeamSection />
+
         <Pricing />
         <Testimonials />
         <FAQ />
         <Contact />
       </main>
+
       <Footer />
     </div>
   );

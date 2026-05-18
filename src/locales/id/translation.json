@@ -1,0 +1,741 @@
+{
+  "header": {
+    "nav": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "products": "Produk",
+      "services": "Layanan",
+      "portfolio": "Portofolio",
+      "pricing": "Skema Kerja",
+      "faq": "FAQ",
+      "contact": "Kontak"
+    },
+    "cta": "Konsultasi Awal",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "hero": {
+    "eyebrow": "Healthcare • Government • Enterprise Systems",
+    "title": "Membangun Solusi Digital Terintegrasi yang",
+    "titleHighlight": "Menyelesaikan Tantangan Operasional",
+    "description": "SIMTECH membantu rumah sakit, instansi, dan perusahaan mengembangkan sistem digital yang andal, terintegrasi, dan scalable — mulai dari <simrs>SIMRS</simrs>, <rfid>RFID Linen Tracking Monitoring</rfid>, aplikasi operasional, dashboard bisnis, hingga arsitektur data dan infrastruktur modern.",
+    "ctaPrimary": "Konsultasikan Kebutuhan",
+    "ctaSecondary": "Lihat Produk SIMTECH",
+    "whatsappMessage": "Halo SIMTECH, saya ingin konsultasi project.",
+    "whatsappAria": "Hubungi SIMTECH melalui WhatsApp",
+    "cards": [
+      {
+        "title": "SIMRS Rescue & Modernization",
+        "text": "Stabilisasi sistem, penataan proses, dan penguatan modul prioritas rumah sakit."
+      },
+      {
+        "title": "RFID Linen Tracking",
+        "text": "Monitoring linen dan aktivitas laundry dengan data yang lebih cepat, akurat, dan terbaca."
+      },
+      {
+        "title": "Custom Enterprise Applications",
+        "text": "Aplikasi web, mobile, dashboard, dan integrasi data sesuai kebutuhan operasional."
+      },
+      {
+        "title": "Government & Enterprise Platforms",
+        "text": "Dashboard, sistem integrasi, dan aplikasi operasional untuk mendukung layanan publik dan pengambilan keputusan."
+      }
+    ]
+  },
+  "targetAudience": {
+    "label": "Fokus Klien",
+    "title": "SIMTECH Dirancang untuk Organisasi yang Ingin Sistemnya Lebih Terkendali",
+    "description": "Kami paling relevan ketika kebutuhan klien tidak cukup dijawab oleh template biasa, tetapi memerlukan analisis proses, integrasi sistem, dan rancangan solusi yang tepat guna.",
+    "items": [
+      {
+        "title": "Rumah Sakit & Healthcare",
+        "text": "Membantu organisasi layanan kesehatan membangun sistem yang lebih terhubung, operasional yang lebih tertata, dan data yang lebih mudah dipantau.",
+        "points": [
+          "SIMRS, RME, dan sistem operasional rumah sakit",
+          "RFID linen tracking dan monitoring aset",
+          "Dashboard manajemen dan integrasi proses layanan"
+        ]
+      },
+      {
+        "title": "Pemerintah & Instansi Publik",
+        "text": "Mendukung kebutuhan digitalisasi layanan, integrasi data, dan visibilitas informasi untuk pengambilan keputusan yang lebih baik.",
+        "points": [
+          "Platform layanan digital dan dashboard eksekutif",
+          "Integrasi aplikasi, data, dan proses lintas unit",
+          "Pendampingan arsitektur solusi dan dokumentasi formal"
+        ]
+      },
+      {
+        "title": "Enterprise & Bisnis",
+        "text": "Mengembangkan solusi digital untuk otomasi kerja, monitoring operasional, dan peningkatan kendali terhadap proses bisnis.",
+        "points": [
+          "Aplikasi internal dan workflow operasional",
+          "Dashboard bisnis, monitoring, dan pelaporan",
+          "Infrastruktur, cloud, dan penguatan keamanan sistem"
+        ]
+      }
+    ]
+  },
+
+  "products": {
+    "label": "Produk SIMTECH",
+    "title": "Ekosistem Produk Digital untuk",
+    "titleHighlight": "Kebutuhan Operasional Modern",
+    "description": "SIMTECH mengembangkan rangkaian produk digital yang dirancang untuk meningkatkan efisiensi proses, visibilitas data, kualitas layanan, dan pengambilan keputusan di sektor healthcare, government, dan enterprise.",
+    "cta": "Diskusikan Produk yang Anda Butuhkan",
+    "items": [
+      {
+        "number": "01",
+        "title": "SIMRS",
+        "category": "Healthcare Platform",
+        "description": "Sistem Informasi Manajemen Rumah Sakit terintegrasi untuk mendukung proses pendaftaran, layanan poli, rawat inap, farmasi, kasir, hingga rekam medis elektronik dalam satu ekosistem digital.",
+        "benefits": [
+          "Integrasi proses layanan antarunit rumah sakit",
+          "Meningkatkan kecepatan dan konsistensi pelayanan",
+          "Mendukung pengelolaan data operasional secara lebih tertata"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "RFID Monitoring",
+        "category": "Asset Tracking & Visibility",
+        "description": "Solusi monitoring berbasis RFID untuk melacak pergerakan aset dan aktivitas operasional secara lebih cepat, otomatis, dan transparan melalui dashboard analitik.",
+        "benefits": [
+          "Pelacakan aset dan pergerakan barang lebih akurat",
+          "Mengurangi pencatatan manual dan potensi kesalahan",
+          "Mendukung keputusan operasional berbasis data"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Mobile Apps",
+        "category": "Digital Access & Operations",
+        "description": "Aplikasi mobile untuk layanan kesehatan, aktivitas bisnis, dan kebutuhan customer service agar informasi dan proses operasional dapat diakses lebih cepat dari mana saja.",
+        "benefits": [
+          "Memperluas akses layanan digital organisasi",
+          "Meningkatkan produktivitas pengguna lapangan",
+          "Terhubung dengan sistem inti dan proses bisnis"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "HR & Fintech System",
+        "category": "Internal Business Platform",
+        "description": "Platform terintegrasi untuk pengelolaan administrasi SDM dan aktivitas keuangan, mulai dari employee management, attendance, payroll, reimbursement, hingga financial monitoring.",
+        "benefits": [
+          "Menyederhanakan proses HR dan finansial",
+          "Mengurangi pekerjaan administratif manual",
+          "Memberikan visibilitas lebih baik bagi manajemen"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "IoT Dashboard",
+        "category": "Connected Monitoring",
+        "description": "Dashboard terpusat untuk memonitor perangkat, sensor, dan data operasional secara real time, dilengkapi insight, alert, dan tampilan analitik yang mudah dipahami.",
+        "benefits": [
+          "Monitoring perangkat dan kondisi operasional secara real time",
+          "Mendukung respons yang lebih cepat terhadap anomali",
+          "Meningkatkan kendali terhadap aset dan proses lapangan"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "DevSecOps Monitoring Dashboard",
+        "category": "Operational Resilience",
+        "description": "Dashboard terpadu untuk memantau performa sistem, aktivitas deployment, ketersediaan layanan, dan indikator keamanan dalam satu tampilan operasional.",
+        "benefits": [
+          "Memperkuat observability dan reliability layanan",
+          "Mendukung respons insiden secara lebih cepat",
+          "Menyatukan perspektif development, security, dan infrastructure"
+        ]
+      },
+      {
+        "number": "07",
+        "title": "Cybersecurity Assessment & Monitoring",
+        "category": "Security Posture & Risk Visibility",
+        "description": "Solusi keamanan digital untuk membantu organisasi mengidentifikasi risiko, menilai celah keamanan, memantau indikator ancaman, serta menyusun prioritas perbaikan keamanan sistem secara lebih terarah.",
+        "benefits": [
+          "Membantu mengenali kerentanan, misconfiguration, dan area risiko utama",
+          "Mendukung pemantauan posture keamanan melalui dashboard dan indikator prioritas",
+          "Memberikan dasar rekomendasi hardening, mitigasi, dan peningkatan kontrol keamanan"
+        ]
+      }
+    ]
+  },
+
+  "services": {
+    "label": "Layanan SIMTECH",
+    "title": "Pendampingan Teknologi dari",
+    "titleHighlight": "Ide, Rancangan, hingga Implementasi",
+    "description": "SIMTECH mendampingi organisasi secara end-to-end: memahami kebutuhan, menyusun blueprint solusi, membangun sistem, mengintegrasikan data, menyiapkan fondasi teknis, dan memastikan implementasi berjalan lebih terarah.",
+    "cta": "Diskusikan Kebutuhan Anda",
+    "outputsLabel": "Output Utama",
+    "outputsTitle": "Yang diperoleh klien dari layanan ini",
+    "valueLabel": "Nilai bagi organisasi",
+    "items": [
+      {
+        "key": "discovery",
+        "title": "Discovery & Business Assessment",
+        "desc": "Tahap awal untuk memahami kebutuhan klien secara utuh, mulai dari tantangan operasional, proses bisnis, kesiapan sistem, hingga prioritas digitalisasi yang paling relevan.",
+        "details": [
+          "Analisis kebutuhan bisnis dan operasional",
+          "Pemetaan proses kerja, pain point, dan gap sistem",
+          "Identifikasi prioritas solusi dan peluang improvement",
+          "Dasar penyusunan scope, roadmap, dan rekomendasi awal"
+        ],
+        "outputs": [
+          "Business Need Summary",
+          "Initial Scope & Priority Map",
+          "Problem–Solution Framing"
+        ],
+        "value": "Membantu organisasi memulai proyek teknologi dari persoalan yang benar, bukan sekadar dari permintaan fitur."
+      },
+      {
+        "key": "architecture",
+        "title": "Solution Architecture & Product Blueprint",
+        "desc": "Perancangan struktur solusi digital agar aplikasi, integrasi, data, dan kebutuhan operasional tersusun dalam arsitektur yang jelas, realistis, dan siap dikembangkan.",
+        "details": [
+          "Perancangan modul, user flow, dan struktur sistem",
+          "Arsitektur aplikasi, integrasi, dan alur data",
+          "Penyusunan pendekatan teknologi sesuai kebutuhan",
+          "Blueprint implementasi sebagai acuan tim pengembangan"
+        ],
+        "outputs": [
+          "Solution Blueprint",
+          "Architecture & Data Flow",
+          "Module and Feature Mapping"
+        ],
+        "value": "Mengurangi risiko proyek salah arah dan memastikan pembangunan sistem memiliki desain yang kuat sejak awal."
+      },
+      {
+        "key": "development",
+        "title": "Custom Software Development",
+        "desc": "Pengembangan aplikasi web, mobile, dashboard, dan sistem operasional yang disesuaikan dengan kebutuhan organisasi serta alur kerja pengguna di lapangan.",
+        "details": [
+          "Pengembangan frontend, backend, dan database",
+          "Workflow berbasis peran dan kebutuhan operasional",
+          "Dashboard manajerial dan pemantauan aktivitas",
+          "Testing, validation, dan penyempurnaan bersama pengguna"
+        ],
+        "outputs": [
+          "Web or Mobile Application",
+          "Operational Dashboard",
+          "Tested Functional Modules"
+        ],
+        "value": "Menghasilkan sistem yang bukan hanya berjalan secara teknis, tetapi benar-benar mendukung aktivitas pengguna."
+      },
+      {
+        "key": "integration",
+        "title": "System Integration & Data Platform",
+        "desc": "Layanan integrasi antarsistem dan penguatan alur data agar informasi tidak terfragmentasi, proses lebih terkoneksi, dan manajemen memperoleh visibilitas yang lebih baik.",
+        "details": [
+          "Integrasi API dan sinkronisasi data",
+          "Penataan alur pertukaran informasi antaraplikasi",
+          "Pengelolaan data untuk dashboard dan pelaporan",
+          "Penyederhanaan proses lintas fungsi dan unit kerja"
+        ],
+        "outputs": [
+          "API Integration Layer",
+          "Data Synchronization Flow",
+          "Management Reporting View"
+        ],
+        "value": "Membantu organisasi bergerak dari sistem yang berdiri sendiri menuju ekosistem digital yang saling terhubung."
+      },
+      {
+        "key": "infrastructure",
+        "title": "Infrastructure, Cloud & DevSecOps",
+        "desc": "Penguatan fondasi teknis aplikasi melalui rancangan infrastruktur, deployment, monitoring, keamanan dasar, dan kesiapan operasional untuk sistem yang lebih stabil.",
+        "details": [
+          "Perancangan environment aplikasi dan database",
+          "Deployment flow, backup, monitoring, dan alerting",
+          "Pendekatan DevSecOps untuk delivery yang lebih terkendali",
+          "Peningkatan reliability, observability, dan kesiapan scale-up"
+        ],
+        "outputs": [
+          "Infrastructure Baseline",
+          "Monitoring & Deployment Flow",
+          "Operational Reliability Setup"
+        ],
+        "value": "Memastikan solusi digital memiliki fondasi teknis yang lebih aman, terukur, dan tidak mudah rapuh saat digunakan."
+      },
+      {
+        "key": "cybersecurity",
+        "title": "Cybersecurity Assessment, Hardening & Monitoring",
+        "desc": "Layanan penguatan keamanan sistem digital melalui assessment risiko, evaluasi celah keamanan, hardening konfigurasi, dan rekomendasi peningkatan kontrol keamanan secara terarah.",
+        "details": [
+          "Security assessment pada aplikasi, server, dan lingkungan infrastruktur",
+          "Identifikasi kerentanan dasar, misconfiguration, dan risiko akses",
+          "Rekomendasi hardening, penguatan kontrol akses, dan secure configuration",
+          "Penyusunan langkah tindak lanjut keamanan untuk peningkatan bertahap"
+        ],
+        "outputs": [
+          "Security Assessment Summary",
+          "Vulnerability & Risk Findings",
+          "Hardening Recommendation",
+          "Security Improvement Roadmap"
+        ],
+        "value": "Membantu organisasi meningkatkan kesiapan keamanan sistem secara lebih terukur, mengurangi risiko operasional, dan membangun fondasi perlindungan digital yang lebih kuat."
+      },
+      {
+        "key": "support",
+        "title": "Implementation Support & Continuous Improvement",
+        "desc": "Pendampingan implementasi, stabilisasi, dan pengembangan bertahap agar solusi yang dibangun dapat diterima pengguna serta terus menyesuaikan kebutuhan organisasi.",
+        "details": [
+          "Dukungan go-live dan pendampingan awal penggunaan",
+          "Pencatatan isu, feedback, dan backlog perbaikan",
+          "Penyempurnaan proses berdasarkan evaluasi lapangan",
+          "Rekomendasi improvement untuk fase lanjutan"
+        ],
+        "outputs": [
+          "Go-Live Support",
+          "Issue & Improvement Backlog",
+          "Next Phase Recommendation"
+        ],
+        "value": "Mendorong keberlanjutan implementasi agar sistem tidak berhenti pada peluncuran, tetapi terus memberi nilai."
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "Portfolio & Experience",
+    "title": "Rekam Jejak Solusi dan",
+    "titleHighlight": "Pengalaman Strategis SIMTECH",
+    "description": "SIMTECH menggabungkan pengalaman implementasi proyek, pengembangan produk digital, dukungan infrastruktur, serta keterlibatan pada inisiatif berskala enterprise dan pemerintahan.",
+    "featuredLabel": "Featured Portfolio",
+    "featuredTitle": "Contoh solusi yang dikembangkan dan diarahkan berdasarkan kebutuhan lapangan",
+    "challengeLabel": "Tantangan",
+    "solutionLabel": "Solusi",
+    "goalLabel": "Dampak yang Dituju",
+    "defaultProductLabel": "Preview Produk",
+    "experienceLabel": "Strategic Experience",
+    "experienceTitle": "Pengalaman yang memperkuat kapasitas SIMTECH",
+    "experienceTitleHighlight": "di proyek enterprise dan pemerintahan",
+    "experienceDescription": "Selain membangun produk dan aplikasi, SIMTECH juga memiliki pengalaman dalam penyusunan arsitektur solusi, penguatan infrastruktur, analisis proses bisnis, dan deliverable formal untuk proyek dengan tingkat kompleksitas tinggi.",
+    "ctaTitle": "Sedang merancang proyek digital dengan kebutuhan yang kompleks?",
+    "ctaDescription": "SIMTECH dapat membantu dari tahap awal analisis, perancangan solusi, pengembangan sistem, hingga pendampingan implementasi yang lebih terarah.",
+    "ctaButton": "Diskusikan Proyek Anda",
+    "items": [
+      {
+        "tag": "SIMRS",
+        "title": "Rescue SIMRS RSUD dr. Slamet",
+        "desc": "Pendampingan perbaikan sistem informasi rumah sakit agar alur modul prioritas lebih stabil dan lebih selaras dengan kebutuhan operasional.",
+        "challenge": "Rumah sakit membutuhkan penanganan terhadap sistem existing yang perlu ditata kembali dari sisi alur, prioritas modul, dan efektivitas penggunaan.",
+        "solution": "SIMTECH masuk melalui pendekatan assessment, analisis kebutuhan, perbaikan titik kritis, serta penyusunan arah penguatan sistem secara bertahap.",
+        "goal": "Meningkatkan keterkendalian sistem, memperjelas prioritas improvement, dan membantu operasional rumah sakit bergerak lebih efektif."
+      },
+      {
+        "tag": "RFID",
+        "title": "RFID Linen & Laundry",
+        "productLabel": "RFID Hardware Kit",
+        "desc": "Solusi monitoring linen untuk membantu organisasi rumah sakit mengurangi pencatatan manual dan meningkatkan visibilitas siklus aset.",
+        "challenge": "Linen bergerak lintas area operasional sehingga dibutuhkan cara pencatatan yang lebih cepat, terukur, dan mudah ditelusuri.",
+        "solution": "Penerapan tag RFID, perangkat pembacaan, dan dashboard pemantauan untuk mencatat perpindahan serta status linen secara lebih sistematis.",
+        "goal": "Meningkatkan akurasi inventaris, mempercepat proses monitoring, dan memperkuat kontrol terhadap sirkulasi linen."
+      },
+      {
+        "tag": "Mobile",
+        "title": "Gorden RS Production & Management Monitoring App",
+        "desc": "Aplikasi mobile untuk pencatatan kebutuhan pelanggan, approval pemesanan, dan monitoring progres produksi secara lebih terintegrasi.",
+        "challenge": "Proses lapangan dan produksi sebelumnya banyak bergantung pada pencatatan manual serta komunikasi yang tersebar.",
+        "solution": "Pengembangan aplikasi Android agar tim lapangan, admin, dan produksi memiliki alur input data, approval, dan monitoring yang lebih jelas.",
+        "goal": "Mendukung efisiensi proses kerja, mempercepat koordinasi, dan membentuk riwayat pemesanan yang lebih terdokumentasi."
+      },
+      {
+        "tag": "Database & Infra",
+        "title": "Operational Monitoring & Data Dashboard",
+        "productLabel": "Operational Dashboard",
+        "desc": "Pendekatan dashboard untuk membantu pimpinan dan tim operasional melihat indikator penting secara lebih ringkas dan terstruktur.",
+        "challenge": "Data operasional yang tersebar menyulitkan manajemen melihat kondisi aktual dan menentukan prioritas tindak lanjut.",
+        "solution": "Perancangan dashboard ringkas berbasis kebutuhan pengguna, dengan fokus pada indikator, status pekerjaan, dan visibilitas progres.",
+        "goal": "Mendorong keputusan yang lebih cepat, komunikasi yang lebih jelas, dan kontrol operasional yang lebih baik."
+      }
+    ],
+    "experiences": [
+      {
+        "tag": "Government",
+        "title": "Solution Architect – SPLP Komdigi",
+        "desc": "Keterlibatan dalam perancangan arsitektur solusi digital berskala nasional, penyelarasan proses bisnis, dan penguatan arah implementasi platform layanan pemerintah."
+      },
+      {
+        "tag": "Advisory",
+        "title": "IT Consultant for PDMI",
+        "desc": "Pendampingan konsultatif untuk kebutuhan teknologi, arah pengembangan digital, dan dukungan peningkatan kapabilitas organisasi."
+      },
+      {
+        "tag": "Engineering",
+        "title": "Infrastructure & Backend Engineering",
+        "desc": "Penguatan fondasi aplikasi melalui perancangan backend, struktur data, integrasi layanan, dan kesiapan operasional sistem."
+      },
+      {
+        "tag": "Platform",
+        "title": "Kubernetes & Modern Platform Deployment",
+        "desc": "Penerapan pendekatan platform modern untuk deployment aplikasi yang lebih scalable, terstruktur, dan siap dikelola secara berkelanjutan."
+      },
+      {
+        "tag": "Documentation",
+        "title": "Technical Writer & Formal Deliverables",
+        "desc": "Penyusunan dokumen teknis, laporan implementasi, matriks analisis, evidence register, dan deliverable formal untuk proyek kompleks."
+      },
+      {
+        "tag": "Business Process",
+        "title": "Business Process Analysis – National Scale",
+        "desc": "Pemetaan proses bisnis dan penyelarasan kebutuhan layanan digital agar transformasi sistem tetap relevan dengan tata kelola organisasi."
+      },
+      {
+        "tag": "Infrastructure",
+        "title": "National Server & Digital Infrastructure Support",
+        "desc": "Dukungan pada lingkungan infrastruktur digital tingkat nasional, termasuk kebutuhan server, platform, koordinasi teknis, dan kesiapan implementasi."
+      }
+    ]
+  },
+
+  "pricing": {
+    "label": "Skema Kolaborasi",
+    "title": "Skema Kolaborasi yang Fleksibel,",
+    "titleHighlight": "dari Perumusan Arah hingga Implementasi",
+    "description": "Tidak semua klien datang dengan kebutuhan yang sama. SIMTECH dapat membantu dari tahap perumusan arah, pembangunan solusi, maupun perbaikan sistem existing agar transformasi digital berjalan lebih terukur.",
+    "cta": "Diskusikan Kebutuhan",
+    "note": "Setiap skema kolaborasi dapat disesuaikan kembali berdasarkan kompleksitas kebutuhan, skala organisasi, kesiapan sistem, dan prioritas implementasi.",
+    "plans": [
+      {
+        "name": "Discovery & Solution Blueprint",
+        "label": "Tahap Awal",
+        "price": "Analisis Kebutuhan",
+        "features": [
+          "Pemetaan kebutuhan, tantangan, dan masalah utama",
+          "Analisis proses bisnis awal dan titik prioritas",
+          "Dokumen arah solusi dan tahapan implementasi",
+          "Estimasi scope, timeline, dan pendekatan teknis awal"
+        ]
+      },
+      {
+        "name": "Build, Integrate & Implement",
+        "label": "Paling Relevan",
+        "price": "Pelaksanaan Proyek",
+        "popular": true,
+        "features": [
+          "Pengembangan aplikasi, dashboard, atau modul khusus",
+          "Integrasi API, database, dan proses lintas fungsi",
+          "UI/UX yang fokus pada kemudahan operasional",
+          "Testing, deployment, handover, dan pendampingan awal"
+        ]
+      },
+      {
+        "name": "Rescue, Improve & Support",
+        "label": "Untuk Sistem Existing",
+        "price": "Program Perbaikan",
+        "features": [
+          "Assessment terhadap sistem yang sudah berjalan",
+          "Stabilisasi, penyempurnaan alur, dan peningkatan performa",
+          "Backlog improvement dan prioritas pengembangan bertahap",
+          "Skema support sesuai kebutuhan organisasi"
+        ]
+      }
+    ]
+  },
+
+  "testimonials": {
+    "label": "Mengapa SIMTECH",
+    "title": "Partner Teknologi yang Berpikir dari Sisi Bisnis dan Implementasi",
+    "description": "SIMTECH hadir bukan hanya sebagai pengembang teknologi, tetapi sebagai partner yang membantu organisasi memahami kebutuhan, menyusun solusi yang tepat, dan memastikan implementasinya relevan dengan proses bisnis di lapangan.",
+    "reasons": [
+      {
+        "title": "Memahami Masalah Operasional",
+        "text": "Kami menerjemahkan kebutuhan bisnis, hambatan proses, dan kondisi lapangan menjadi rancangan solusi yang lebih relevan untuk dijalankan."
+      },
+      {
+        "title": "Tidak Hanya Membangun Aplikasi",
+        "text": "Pendekatan SIMTECH mencakup proses kerja, data, integrasi, infrastruktur pendukung, dan kesiapan implementasi secara menyeluruh."
+      },
+      {
+        "title": "Cocok untuk Kebutuhan Kompleks",
+        "text": "Kami terbiasa menangani kebutuhan yang tidak seragam, memiliki banyak pemangku kepentingan, dan perlu dikembangkan secara bertahap."
+      },
+      {
+        "title": "Pendekatan Lebih Terukur",
+        "text": "Kebutuhan besar dipecah menjadi prioritas, tahapan, dan arah implementasi yang lebih jelas agar proyek berjalan lebih terkendali."
+      }
+    ]
+  },
+
+  "faq": {
+    "label": "FAQ",
+    "title": "Pertanyaan yang Sering Muncul",
+    "titleHighlight": "Sebelum Memulai Kolaborasi",
+    "description": "Beberapa jawaban awal untuk membantu memahami pendekatan kerja, bentuk solusi, dan cara SIMTECH mendampingi kebutuhan digital organisasi.",
+    "ctaTitle": "Masih memiliki kebutuhan yang lebih spesifik?",
+    "ctaDescription": "Setiap organisasi memiliki konteks dan tingkat kesiapan yang berbeda. SIMTECH dapat membantu memetakan kebutuhan awal sebelum menentukan bentuk solusi yang paling tepat.",
+    "ctaButton": "Diskusikan Kebutuhan Anda",
+    "items": [
+      {
+        "q": "Apakah SIMTECH hanya membuat website?",
+        "a": "Tidak. SIMTECH berfokus pada pengembangan solusi digital yang lebih luas: aplikasi web, mobile, dashboard, sistem monitoring, RFID, hingga pendampingan penguatan sistem existing."
+      },
+      {
+        "q": "Apakah bisa membantu sistem yang sudah berjalan tetapi perlu diperbaiki?",
+        "a": "Bisa. Kami dapat masuk melalui assessment, identifikasi masalah prioritas, penyusunan roadmap improvement, lalu dilanjutkan dengan perbaikan bertahap."
+      },
+      {
+        "q": "Apakah solusi harus dibuat dari nol?",
+        "a": "Tidak selalu. Kami akan menilai apakah kebutuhan lebih tepat dibangun baru, dikembangkan dari sistem existing, atau disusun secara bertahap agar investasi lebih efektif."
+      },
+      {
+        "q": "Apakah SIMTECH cocok untuk rumah sakit dan instansi?",
+        "a": "Ya. Fokus kami memang kuat pada kebutuhan yang memiliki proses operasional kompleks, banyak aktor, dan membutuhkan integrasi data serta kontrol yang lebih baik."
+      },
+      {
+        "q": "Bagaimana cara memulai diskusi kebutuhan?",
+        "a": "Calon klien dapat menghubungi SIMTECH melalui formulir kontak atau WhatsApp. Dari sana kami akan membantu memetakan kebutuhan awal dan menentukan bentuk tindak lanjut yang paling tepat."
+      }
+    ]
+  },
+
+  "contact": {
+    "label": "Hubungi SIMTECH",
+    "title": "Mulai Diskusi dari",
+    "titleHighlight": "Kebutuhan yang Sedang Anda Hadapi",
+    "description": "Ceritakan tantangan sistem, proses, atau digitalisasi yang sedang Anda hadapi. Tim SIMTECH akan membantu memetakan kebutuhan awal dan menentukan arah solusi yang paling relevan.",
+    "addressLabel": "Alamat Kantor",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "mapTitle": "Peta Lokasi SIMTECH",
+    "form": {
+      "title": "Ceritakan Kebutuhan Digital Anda",
+      "description": "Isi ringkasan kebutuhan awal. Setelah dikirim, pesan akan diarahkan ke WhatsApp resmi SIMTECH.",
+      "nameLabel": "Nama Lengkap",
+      "namePlaceholder": "Nama Anda",
+      "organizationLabel": "Nama Organisasi",
+      "organizationPlaceholder": "Rumah sakit / instansi / perusahaan",
+      "emailLabel": "Email",
+      "emailPlaceholder": "nama@organisasi.com",
+      "phoneLabel": "Nomor WhatsApp",
+      "phonePlaceholder": "+62...",
+      "topicLabel": "Topik Kebutuhan",
+      "topicPlaceholder": "Pilih topik kebutuhan",
+      "topicOptions": [
+        {
+          "value": "SIMRS",
+          "label": "SIMRS"
+        },
+        {
+          "value": "RFID Monitoring",
+          "label": "RFID Monitoring"
+        },
+        {
+          "value": "Mobile Apps",
+          "label": "Mobile Apps"
+        },
+        {
+          "value": "HR & Fintech System",
+          "label": "HR & Fintech System"
+        },
+        {
+          "value": "IoT Dashboard",
+          "label": "IoT Dashboard"
+        },
+        {
+          "value": "DevSecOps Monitoring Dashboard",
+          "label": "DevSecOps Monitoring Dashboard"
+        },
+        {
+          "value": "Custom Software / Enterprise Platform",
+          "label": "Custom Software / Enterprise Platform"
+        },
+        {
+          "value": "Assessment & Solution Blueprint",
+          "label": "Assessment & Solution Blueprint"
+        },
+        {
+          "value": "Cybersecurity Assessment & Monitoring",
+          "label": "Cybersecurity Assessment & Monitoring"
+        },
+        {
+          "value": "Lainnya",
+          "label": "Lainnya"
+        }
+      ],
+      "messageLabel": "Ringkasan Kebutuhan",
+      "messagePlaceholder": "Jelaskan kebutuhan, kendala saat ini, dan hasil yang ingin dicapai...",
+      "submitButton": "Kirim via WhatsApp",
+      "loadingButton": "Mengarahkan ke WhatsApp...",
+      "disclaimer": "Dengan mengirim form ini, Anda akan diarahkan ke WhatsApp SIMTECH untuk melanjutkan percakapan."
+    },
+    "whatsapp": {
+      "greeting": "Halo SIMTECH,",
+      "intro": "Saya ingin berdiskusi mengenai kebutuhan digital.",
+      "name": "Nama",
+      "organization": "Organisasi",
+      "email": "Email",
+      "phone": "Nomor WhatsApp",
+      "topic": "Topik Kebutuhan",
+      "summary": "Ringkasan Kebutuhan",
+      "closing": "Mohon tim SIMTECH dapat menghubungi saya untuk diskusi lebih lanjut."
+    }
+  },
+
+  "footer": {
+    "brandDescription": "Mitra teknologi untuk pengembangan solusi digital yang terintegrasi, scalable, dan relevan bagi sektor healthcare, government, dan enterprise.",
+    "brandCta": "Mulai Diskusi",
+    "products": {
+      "title": "Produk",
+      "items": [
+        {
+          "label": "SIMRS",
+          "href": "#products"
+        },
+        {
+          "label": "RFID Monitoring",
+          "href": "#products"
+        },
+        {
+          "label": "Mobile Apps",
+          "href": "#products"
+        },
+        {
+          "label": "HR & Fintech System",
+          "href": "#products"
+        },
+        {
+          "label": "IoT & DevSecOps Dashboard",
+          "href": "#products"
+        },
+        {
+          "label": "Cybersecurity Assessment & Monitoring",
+          "href": "#products"
+        }
+      ]
+    },
+    "navigation": {
+      "title": "Navigasi",
+      "items": [
+        {
+          "label": "Tentang SIMTECH",
+          "href": "#about"
+        },
+        {
+          "label": "Layanan",
+          "href": "#services"
+        },
+        {
+          "label": "Portofolio & Experience",
+          "href": "#portfolio"
+        },
+        {
+          "label": "Skema Kolaborasi",
+          "href": "#pricing"
+        },
+        {
+          "label": "FAQ",
+          "href": "#faq"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontak",
+      "emailLabel": "Email",
+      "whatsappLabel": "WhatsApp",
+      "addressLabel": "Alamat"
+    },
+    "copyright": "Seluruh hak cipta dilindungi.",
+    "backToTop": "Kembali ke Atas",
+    "contactUs": "Hubungi Kami"
+  },
+
+  "clientMarquee": {
+    "label": "Trusted Clients & Partners",
+    "title": "Dipercaya oleh berbagai organisasi dan mitra bisnis"
+  },
+
+  "team": {
+    "label": "Tim Kami",
+    "title": "Orang-Orang di Balik SIMTECH",
+    "description": "Tim multidisiplin yang menggabungkan strategi bisnis, rekayasa perangkat lunak, desain pengalaman pengguna, dan implementasi teknologi untuk menghadirkan solusi digital yang relevan dan berdampak.",
+    "members": [
+      {
+        "name": "Haris M. Pratama",
+        "role": "Founder & Chief Executive Officer",
+        "description": "Memimpin arah strategis SIMTECH, pengembangan bisnis, kemitraan, serta pertumbuhan solusi teknologi untuk sektor kesehatan, pemerintahan, dan industri."
+      },
+      {
+        "name": "Budi",
+        "role": "Fullstack Engineer & DevOps",
+        "description": "Mengembangkan aplikasi end-to-end, membangun integrasi sistem, serta memastikan proses deployment dan operasional platform berjalan stabil."
+      },
+      {
+        "name": "Bagas",
+        "role": "UI/UX Designer",
+        "description": "Merancang pengalaman pengguna dan antarmuka produk agar modern, mudah digunakan, serta mendukung kebutuhan bisnis klien."
+      },
+      {
+        "name": "Akmal",
+        "role": "IoT Engineer",
+        "description": "Mengembangkan solusi berbasis IoT, RFID, sensor, dan integrasi sistem fisik-digital untuk mendukung efisiensi operasional."
+      }
+    ]
+  },
+
+  "about": {
+    "label": "Tentang SIMTECH",
+    "headline": "Bukan Sekadar Software House.",
+    "headlineHighlight": "Kami Merancang Solusi Digital yang Relevan, Terintegrasi, dan Siap Dijalankan.",
+    "descriptionPrimary": "SIMTECH membantu rumah sakit, instansi pemerintah, dan perusahaan membangun solusi digital yang lebih tertata, lebih terkoneksi, dan selaras dengan kebutuhan operasional nyata.",
+    "descriptionSecondary": "Kami hadir mulai dari pemetaan kebutuhan, perancangan arsitektur solusi, pengembangan aplikasi, integrasi sistem, penguatan infrastruktur, hingga implementasi yang dapat dijalankan secara bertahap dan relevan.",
+    "ctaPrimary": "Lihat Solusi Kami",
+    "ctaSecondary": "Diskusikan Kebutuhan",
+    "partnerLabel": "Strategic Technology Partner",
+    "brandStatement": "Menghubungkan solusi, data, keamanan, dan implementasi dalam satu arah digital.",
+    "capabilities": [
+      "Software Development",
+      "System Integration",
+      "Cybersecurity",
+      "Cloud & Infrastructure",
+      "Dashboard & Monitoring"
+    ],
+    "solutionMap": [
+      {
+        "title": "Application",
+        "subtitle": "Web & Mobile"
+      },
+      {
+        "title": "Integration",
+        "subtitle": "System & Data"
+      },
+      {
+        "title": "Security",
+        "subtitle": "Cyber & Control"
+      },
+      {
+        "title": "Infrastructure",
+        "subtitle": "Cloud & Ops"
+      }
+    ],
+    "sectors": [
+      {
+        "title": "Healthcare",
+        "text": "SIMRS, RME, RFID, dan monitoring operasional."
+      },
+      {
+        "title": "Government",
+        "text": "Integrasi layanan, dashboard, dan platform publik."
+      },
+      {
+        "title": "Enterprise",
+        "text": "Aplikasi internal, otomasi, dan visibilitas data."
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Business-Oriented",
+        "text": "Solusi dimulai dari kebutuhan operasional dan dampak yang ingin dicapai."
+      },
+      {
+        "title": "Integrated Delivery",
+        "text": "Aplikasi, data, dashboard, dan infrastruktur disusun dalam satu ekosistem."
+      },
+      {
+        "title": "Scalable & Reliable",
+        "text": "Sistem disiapkan agar stabil, aman, dan mudah dikembangkan."
+      }
+    ]
+  }
+}
