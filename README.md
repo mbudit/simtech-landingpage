@@ -1,55 +1,41 @@
-# React + TypeScript + Vite
+# SIMTECHINDO 3D Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Digital Solution Partner for Healthcare & Enterprise — company website built with React, TypeScript, Vite, and Three.js.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** + TypeScript
+- **Vite** for bundling
+- **Tailwind CSS v4** for styling
+- **Three.js** (`@react-three/fiber`, `@react-three/drei`) for 3D hero visuals
+- **Framer Motion** for animations
+- **GSAP** for scroll animations
+- **Lucide React** for icons
+- **React Router v7** for routing
+- **i18next**-style language switching (ID/EN)
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
-# simtech-landingpage
+src/
+├── components/
+│   ├── layout/      # Navbar, Footer, FloatingWhatsApp, BackToTopButton, PageLoader
+│   ├── sections/    # HeroSection, ServicesSection, SolutionsSection, etc.
+│   └── three/       # Three.js 3D components (HeroCanvas)
+├── hooks/           # useThemeMode, useLanguageMode, useScrollDirection
+├── i18n/            # translations (ID/EN)
+├── pages/           # AboutUsPage, TeamsPage, PortfolioPage, OurClientsPage, ServiceDetailPage
+├── App.tsx          # Root component with routing
+├── main.tsx         # Entry point
+└── index.css        # Tailwind + global styles
+```

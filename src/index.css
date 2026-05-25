@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+@keyframes simtechFloat {
+  0% {
+    transform: translateY(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1);
+  }
+  50% {
+    transform: translateY(-22px) rotateX(4deg) rotateY(-8deg) rotateZ(2deg) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1);
+  }
+}
+
+@keyframes simtechLogoClockwiseSlow {
+  0% {
+    transform: perspective(1400px) rotateX(4deg) rotateY(-10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: perspective(1400px) rotateX(4deg) rotateY(-10deg) rotateZ(360deg);
+  }
+}
+
+.simtech-logo-3d {
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  animation: simtechLogoClockwiseSlow 40s linear infinite;
+  will-change: transform;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+canvas,
+video {
+  max-width: 100%;
+}
+
+.responsive-section {
+  overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+  .responsive-section {
+    overflow-x: hidden;
+  }
+}
+
+html.light body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+html.light .bg-slate-950 {
+  background-color: #f8fafc !important;
+}
+
+html.light .bg-slate-900 {
+  background-color: #eef2ff !important;
+}
+
+html.light .text-white {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-300,
+html.light .text-slate-400,
+html.light .text-slate-500 {
+  color: #475569 !important;
+}
+
+html.light .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+html.light .bg-white\/\[0\.04\],
+html.light .bg-white\/\[0\.035\],
+html.light .bg-white\/\[0\.03\],
+html.light .bg-white\/5 {
+  background-color: rgba(255, 255, 255, 0.82) !important;
+}
+
+html.light .bg-slate-950\/70,
+html.light .bg-slate-950\/75,
+html.light .bg-slate-950\/80,
+html.light .bg-slate-950\/85,
+html.light .bg-slate-950\/95 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+html.light .shadow-black\/20,
+html.light .shadow-black\/30,
+html.light .shadow-black\/40 {
+  --tw-shadow-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+html.light iframe.grayscale.invert {
+  filter: grayscale(0.25) invert(0) !important;
+}
